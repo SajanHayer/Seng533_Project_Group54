@@ -8,7 +8,7 @@ import {
 
 /*
     Structure for JSON format:
-    Found in structured.json
+    Found in structuredExample.json
 */
 
 // Code to run file:
