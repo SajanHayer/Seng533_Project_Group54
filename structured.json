@@ -1,0 +1,25 @@
+[{
+    "Neighborhood Name": "Neighborhood-1",
+    "Neighborhood MetaData": {
+      "Population": 1000,
+      "Number of Schools": 1,
+      "Number of Hospitals": 1,
+      "Number of Parks": 1,
+      "Quadrant": "NE",
+      "City": "Calgary"
+    },
+    "House Type": {
+      "House Type 1": {
+        "Number of Houses": 292,
+        "Average Price": 708669
+      },
+      "House Type 2": {
+        "Number of Houses": 153,
+        "Average Price": 803764
+      },
+      "House Type 3": {
+        "Number of Houses": 132,
+        "Average Price": 528582
+      }
+    }
+  }]
