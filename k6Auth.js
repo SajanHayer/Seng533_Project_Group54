@@ -62,7 +62,13 @@ export default function () {
     );
 
     // load our response
-    const response = http.post(signedRequest.url, signedRequest.body, {headers:signedRequest.headers});
+    const response = http.post(
+                                signedRequest.url, 
+                                signedRequest.body, 
+                                {
+                                headers:signedRequest.headers,
+                                timeout: '60s' //default  
+                                });
     console.log('Response Status:', response.status);  
     console.log('Response Headers:', response.headers);
     const responseBody = JSON.parse(response.body);
